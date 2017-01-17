@@ -6,19 +6,19 @@ Run query using POSTMAN Chrome App
 
 URLs/endpoints to hit:
 -------------------------
-To get records of all doctors -->>  http://localhost:8080/doctors/all
+To get records of all doctors -->> GET  http://localhost:8080/doctors
 
-To get records of a doctor by id -->> http://localhost:8080/doctors/2
+To get records of a doctor by id -->> GET  http://localhost:8080/doctors/2
 
-To insert record of a doctor -->> http://localhost:8080/doctors
+To insert record of a doctor -->>  POST http://localhost:8080/doctors
 (provide json object in request body)
 
-To update record of a doctor-->> http://localhost:8080/doctors/1
+To update record of a doctor-->> PUT  http://localhost:8080/doctors/1
 (provide json object in request body)
 
-To delete a single record -->>http://localhost:8080/doctors/1
+To delete a single record -->> DELETE  http://localhost:8080/doctors/1
 
-To delete all records -->> http://localhost:8080/doctors
+To delete all records -->> DELETE  http://localhost:8080/doctors
 
 
 

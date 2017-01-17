@@ -31,7 +31,7 @@ public class DoctorController {
 	
 	
 		//get all doctors using GET
-		@RequestMapping(method=RequestMethod.GET)
+		@RequestMapping(value="/all",method=RequestMethod.GET)
 		@ResponseBody
 		public JSONArray getAllDoctors(){
 		

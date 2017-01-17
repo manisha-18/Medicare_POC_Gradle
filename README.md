@@ -6,7 +6,7 @@ Run query using POSTMAN Chrome App
 
 URLs/endpoints to hit:
 -------------------------
-To get records of all doctors -->>  http://localhost:8080/doctors
+To get records of all doctors -->>  http://localhost:8080/doctors/all
 
 To get records of a doctor by id -->> http://localhost:8080/doctors/2
 
